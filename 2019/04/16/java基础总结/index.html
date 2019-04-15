@@ -1,102 +1,175 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
 <html>
 <head><meta name="generator" content="Hexo 3.8.0">
-  <meta charset="utf-8">
-  
-  <title>java基础总结 | Zengjx</title>
-  <meta name="author" content="zengjx">
-  
-  <meta name="description" content="https://zengjxrsingstar.github.io/">
-  
-  
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta charset="utf-8">
 
-  <meta property="og:title" content="java基础总结">
-  <meta property="og:site_name" content="Zengjx">
+    
 
-  
-    <meta property="og:image" content>
-  
+    
+    <title>java基础总结 | Zengjx</title>
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    
+        <meta name="keywords" content>
+    
+    <meta name="description" content="Java基础知识总结（超级经典）写代码：1，明确需求。我要做什么？2，分析思路。我要怎么做？1,2,3。3，确定步骤。每一个思路部分用到哪些语句，方法，和对象。4，代码实现。用具体的java语言代码把思路体现出来。 学习新技术的四点：1，该技术是什么？2，该技术有什么特点(使用注意)：3，该技术怎么使用。demo 4，该技术什么时候用？test。一：java概述：1991 年Sun公司的James">
+<meta property="og:type" content="article">
+<meta property="og:title" content="java基础总结">
+<meta property="og:url" content="http://yoursite.com/2019/04/16/java基础总结/index.html">
+<meta property="og:site_name" content="Zengjx">
+<meta property="og:description" content="Java基础知识总结（超级经典）写代码：1，明确需求。我要做什么？2，分析思路。我要怎么做？1,2,3。3，确定步骤。每一个思路部分用到哪些语句，方法，和对象。4，代码实现。用具体的java语言代码把思路体现出来。 学习新技术的四点：1，该技术是什么？2，该技术有什么特点(使用注意)：3，该技术怎么使用。demo 4，该技术什么时候用？test。一：java概述：1991 年Sun公司的James">
+<meta property="og:locale" content="简体中文，英语">
+<meta property="og:updated_time" content="2019-04-15T14:28:31.633Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="java基础总结">
+<meta name="twitter:description" content="Java基础知识总结（超级经典）写代码：1，明确需求。我要做什么？2，分析思路。我要怎么做？1,2,3。3，确定步骤。每一个思路部分用到哪些语句，方法，和对象。4，代码实现。用具体的java语言代码把思路体现出来。 学习新技术的四点：1，该技术是什么？2，该技术有什么特点(使用注意)：3，该技术怎么使用。demo 4，该技术什么时候用？test。一：java概述：1991 年Sun公司的James">
+    
 
-  <link rel="alternate" href="/atom.xml" title="Zengjx" type="application/atom+xml">
-  <link rel="stylesheet" href="/css/style.css" media="screen" type="text/css">
-  <!--[if lt IE 9]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+    
+        <link rel="alternate" href="/" title="Zengjx" type="application/atom+xml">
+    
 
-  <!-- favicon -->
-  <link rel="icon" type="image/x-icon" href="/favicon.ico">
-  <!-- Font-Awesome -->
-  <link rel="stylesheet" href="/font-awesome/css/font-awesome.min.css">
+    
+
+    <link rel="stylesheet" href="/libs/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/libs/titillium-web/styles.css">
+    <link rel="stylesheet" href="/libs/source-code-pro/styles.css">
+
+    <link rel="stylesheet" href="/css/style.css">
+
+    <script src="/libs/jquery/3.3.1/jquery.min.js"></script>
+    
+    
+        <link rel="stylesheet" href="/libs/lightgallery/css/lightgallery.min.css">
+    
+    
+        <link rel="stylesheet" href="/libs/justified-gallery/justifiedGallery.min.css">
+    
+    
+    
+
 
 </head>
 </html>
 <body>
-  <header id="header"><div class="header-content inner">
-	<div class="alignleft col-one">
-		
-			<div class="avatar">
-				<img src="/img/default/avatar.png">
-              </div>
-		
-		<div class="header-div">
-		    <h1><a href="/">Zengjx</a></h1>
-		    <h2><a href="/">学的不是技术，更是梦想！（zenjgx  个人博客）</a></h2>
-		</div>
-	</div>
-	<div class="alignright col-two">
-		
-	</div>
-	<div class="clearfix"></div>
-</div>
+    <div id="wrap">
+        <header id="header">
+    <div id="header-outer" class="outer">
+        <div class="container">
+            <div class="container-inner">
+                <div id="header-title">
+                    <h1 class="logo-wrap">
+                        <a href="/" class="logo"></a>
+                    </h1>
+                    
+                        <h2 class="subtitle-wrap">
+                            <p class="subtitle">学的不是技术，更是梦想！（zenjgx  个人博客）</p>
+                        </h2>
+                    
+                </div>
+                <div id="header-inner" class="nav-container">
+                    <a id="main-nav-toggle" class="nav-icon fa fa-bars"></a>
+                    <div class="nav-container-inner">
+                        <ul id="main-nav">
+                            
+                                <li class="main-nav-list-item">
+                                    <a class="main-nav-list-link" href="/">Home</a>
+                                </li>
+                            
+                                        
+                                    
+                                <li class="main-nav-list-item">
+                                    <a class="main-nav-list-link" href="/about/index.html">About</a>
+                                </li>
+                            
+                        </ul>
+                        <nav id="sub-nav">
+                            <div id="search-form-wrap">
 
-<div class="header-nav">
-	<div class="header-nav-content inner">
-		<div id="main-nav" class="alignleft">
-		    		
-		    		  <a href="/"><i class="fa fa-home"></i>Home</a>
-		    		
-		    		  <a href="/archives"><i class="fa fa-archive"></i>Archives</a>
-		    		
-		    		  <a href="/node"><i class="fa fa-book"></i>Node.js</a>
-		    		
-		    		  <a href="/hexo"><i class="fa fa-book"></i>Books</a>
-		    		
-		</div>
-		<div id="sub-nav" class="alignright">
-		    
-		      <a href="/atom.xml"><i class="fa fa-rss"></i>Rss</a>
-		    
-		      <a href="/customization"><i class="fa fa-question-circle"></i>Customization</a>
-		    
-		      <a href="/about"><i class="fa fa-user"></i>About</a>
-		    
-		</div>
-	</div>
-	<div class="clearfix"></div>
+    <form class="search-form">
+        <input type="text" class="ins-search-input search-form-input" placeholder="Search">
+        <button type="submit" class="search-form-submit"></button>
+    </form>
+    <div class="ins-search">
+    <div class="ins-search-mask"></div>
+    <div class="ins-search-container">
+        <div class="ins-input-wrapper">
+            <input type="text" class="ins-search-input" placeholder="Type something...">
+            <span class="ins-close ins-selectable"><i class="fa fa-times-circle"></i></span>
+        </div>
+        <div class="ins-section-wrapper">
+            <div class="ins-section-container"></div>
+        </div>
+    </div>
 </div>
+<script>
+(function (window) {
+    var INSIGHT_CONFIG = {
+        TRANSLATION: {
+            POSTS: 'Posts',
+            PAGES: 'Pages',
+            CATEGORIES: 'Categories',
+            TAGS: 'Tags',
+            UNTITLED: '(Untitled)',
+        },
+        ROOT_URL: '/',
+        CONTENT_URL: '/content.json',
+    };
+    window.INSIGHT_CONFIG = INSIGHT_CONFIG;
+})(window);
+</script>
+<script src="/js/insight.js"></script>
+
+</div>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </header>
-    <div id="content" class="inner">
-      <div id="main-col" class="alignleft"><div id="wrapper"><article class="post">
-  
-  <div class="post-content">
-    <header>
-        <div class="icon"></div>
-        
-        <time datetime="2019-04-16T02:26:24.000Z"><a href="/2019/04/16/java基础总结/">2019-04-16</a></time>
-        
-  
-    <h1 class="title">java基础总结</h1>
-  
+        <div class="container">
+            <div class="main-body container-inner">
+                <div class="main-body-inner">
+                    <section id="main">
+                        <div class="main-body-header">
+    <h1 class="header">
+    
+    uncategorized
+    </h1>
+</div>
 
-    </header>
-
-    <div class="entry">
-      
+                        <div class="main-body-content">
+                            <article id="post-java基础总结" class="article article-single article-type-post" itemscope itemprop="blogPost">
+    <div class="article-inner">
         
-    <div id="toc">
-        <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#4，该技术什么时候用？test。"><span class="toc-text">4，该技术什么时候用？test。</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#一个文件要被执行-必须要有一个执行的起始点-这个起始点就是main函数"><span class="toc-text">一个文件要被执行,必须要有一个执行的起始点,这个起始点就是main函数.</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#元素类型-变量名-new-元素类型-元素1，元素2…-；"><span class="toc-text">元素类型[] 变量名 = new 元素类型[]{元素1，元素2…}；</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#"><span class="toc-text">}</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#3：垃圾回收机制。"><span class="toc-text">3：垃圾回收机制。</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#8：将首地址赋值给p-，p变量就引用了该实体。-指向了该对象"><span class="toc-text">8：将首地址赋值给p ，p变量就引用了该实体。(指向了该对象)</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#-1"><span class="toc-text">*/</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#3，定义公有并静态的方法，返回该对象。"><span class="toc-text">3，定义公有并静态的方法，返回该对象。</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#-2"><span class="toc-text">}</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#-3"><span class="toc-text">}</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#4：抽象类中可不可以不定义抽象方法？可以。抽象方法目的仅仅为了不让该类创建对象。"><span class="toc-text">4：抽象类中可不可以不定义抽象方法？可以。抽象方法目的仅仅为了不让该类创建对象。</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#-4"><span class="toc-text">}</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#多态的出现思想上也做着变化：以前是创建对象并指挥对象做事情。有了多态以后，我们可以找到对象的共性类型，直接操作共性类型做事情即可，这样可以指挥一批对象做事情，即通过操作父类或接口实现。"><span class="toc-text">多态的出现思想上也做着变化：以前是创建对象并指挥对象做事情。有了多态以后，我们可以找到对象的共性类型，直接操作共性类型做事情即可，这样可以指挥一批对象做事情，即通过操作父类或接口实现。</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#-5"><span class="toc-text">}</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#简单说：静态函数-—-编译运行都看-左边。"><span class="toc-text">简单说：静态函数 — 编译运行都看 = 左边。</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#通常equals，toString，hashCode，在应用中都会被复写，建立具体对象的特有的内容。"><span class="toc-text">通常equals，toString，hashCode，在应用中都会被复写，建立具体对象的特有的内容。</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#内部类：如果A类需要直接访问B类中的成员，而B类又需要建立A类的对象。这时-为了方便设计和访问，直接将A类定义在B类中。就可以了。A类就称为内部类。内部类可以直接访问外部类中的成员。而外部类想要访问内部类，必须要建立内部类的对象。"><span class="toc-text">内部类：如果A类需要直接访问B类中的成员，而B类又需要建立A类的对象。这时,为了方便设计和访问，直接将A类定义在B类中。就可以了。A类就称为内部类。内部类可以直接访问外部类中的成员。而外部类想要访问内部类，必须要建立内部类的对象。</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#-6"><span class="toc-text">}</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#其实就是在创建匿名内部类时，该类中的封装的方法不要过多，最好两个或者两个以内。"><span class="toc-text">其实就是在创建匿名内部类时，该类中的封装的方法不要过多，最好两个或者两个以内。</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Object类型，而编译时检查Object类中是否有show方法，所以编译失败。"><span class="toc-text">Object类型，而编译时检查Object类中是否有show方法，所以编译失败。</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#-7"><span class="toc-text">}</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#-8"><span class="toc-text">}</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#可抛性的体现：就是这个体系中的类和对象都可以被throws和throw两个关键字所操作。"><span class="toc-text">可抛性的体现：就是这个体系中的类和对象都可以被throws和throw两个关键字所操作。</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#-9"><span class="toc-text">}</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#-10"><span class="toc-text">}</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#-11"><span class="toc-text">}</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#异常要尽量避免，如果避免不了，需要预先给出处理方式。比如家庭备药，比如灭火器。"><span class="toc-text">异常要尽量避免，如果避免不了，需要预先给出处理方式。比如家庭备药，比如灭火器。</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#不同包中-ok"><span class="toc-text">不同包中         ok</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#将jar包目录列表重定向到一个文件中：jar-–tf-包名-jar-gt-c-1-txt"><span class="toc-text"> 将jar包目录列表重定向到一个文件中：jar –tf 包名.jar &gt;c:\1.txt</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#实现Runnable接口可以避免单继承的局限性。而且，继承Thread，是可以对Thread类中的方法，进行子类复写的。但是不需要做这个复写动作的话，只为定义线程代码存放位置，实现Runnable接口更方便一些。所以Runnable接口将线程要执行的任务封装成了对象。"><span class="toc-text">实现Runnable接口可以避免单继承的局限性。而且，继承Thread，是可以对Thread类中的方法，进行子类复写的。但是不需要做这个复写动作的话，只为定义线程代码存放位置，实现Runnable接口更方便一些。所以Runnable接口将线程要执行的任务封装成了对象。</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#start-结果：subthread-run"><span class="toc-text">}.start();  //结果：subthread run</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#-12"><span class="toc-text">}</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#在一个类中只有一个同步，可以使用同步函数。如果有多同步，必须使用同步代码块，来确定不同的锁。所以同步代码块相对灵活一些。"><span class="toc-text">在一个类中只有一个同步，可以使用同步函数。如果有多同步，必须使用同步代码块，来确定不同的锁。所以同步代码块相对灵活一些。</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#-13"><span class="toc-text">}</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#当A线程执行到了B线程的join方式。A线程处于冻结状态，释放了执行权，B开始执行。A什么时候执行呢？只有当B线程运行结束后，A才从冻结状态恢复运行状态执行。"><span class="toc-text">当A线程执行到了B线程的join方式。A线程处于冻结状态，释放了执行权，B开始执行。A什么时候执行呢？只有当B线程运行结束后，A才从冻结状态恢复运行状态执行。</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#lt-java-util-concurrent-locks-gt-Condition接口：await-、signal-、signalAll-；"><span class="toc-text">&lt; java.util.concurrent.locks &gt; Condition接口：await()、signal()、signalAll()；</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#-14"><span class="toc-text"> }</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#特点：字符串一旦被初始化，就不可以被改变，存放在方法区中的常量池中。"><span class="toc-text">特点：字符串一旦被初始化，就不可以被改变，存放在方法区中的常量池中。</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#System-out-println-s1-equals-s2-true-，字符串中equals比较的是字符串内容是否相同。"><span class="toc-text">System.out.println(s1.equals(s2));//true ，字符串中equals比较的是字符串内容是否相同。</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#int-compareTo-如果参数字符串等于此字符串，则返回值-0；如果此字符串按字典顺序小于字符串参数，则返回一个小于-0-的值；如果此字符串按字典顺序大于字符串参数，则返回一个大于-0-的值。"><span class="toc-text">int compareTo();//如果参数字符串等于此字符串，则返回值 0；如果此字符串按字典顺序小于字符串参数，则返回一个小于 0 的值；如果此字符串按字典顺序大于字符串参数，则返回一个大于 0 的值。</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#StringBuffer-reverse-字符串反转"><span class="toc-text">StringBuffer reverse();字符串反转</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#多线程操作，使用StringBuffer-安全。"><span class="toc-text">多线程操作，使用StringBuffer 安全。</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#s-new-StringBuffer-append-“abc”-append-4-append-‘q’-toString"><span class="toc-text">s = new StringBuffer().append(“abc”).append(4).append(‘q’).toString();</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#-15"><span class="toc-text">}</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#只有一个类型没有parse方法：Character-；"><span class="toc-text">只有一个类型没有parse方法：Character ；</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#在装箱时，如果数值在byte范围之内，那么数值相同，不会产生新的对象，也就是说多个数值相同的引用指向的是同一个对象。"><span class="toc-text">//在装箱时，如果数值在byte范围之内，那么数值相同，不会产生新的对象，也就是说多个数值相同的引用指向的是同一个对象。</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#toArray"><span class="toc-text">toArray();</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Iterator-it-coll-iterator-获取容器中的迭代器对象，至于这个对象是是什么不重要。这对象肯定符合一个规则Iterator接口。"><span class="toc-text">Iterator it = coll.iterator();//获取容器中的迭代器对象，至于这个对象是是什么不重要。这对象肯定符合一个规则Iterator接口。</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#-16"><span class="toc-text">}</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#pollLast"><span class="toc-text">pollLast();</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#为什么要定义在map内部呢？entry是访问键值关系的入口，是map的入口，访问的是map中的键值对。"><span class="toc-text">为什么要定义在map内部呢？entry是访问键值关系的入口，是map的入口，访问的是map中的键值对。</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#-17"><span class="toc-text">}</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#-18"><span class="toc-text">}</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#保证唯一，就用Set。不保证唯一，就用List。"><span class="toc-text">保证唯一，就用Set。不保证唯一，就用List。</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Collection是个java-util下的接口，它是各种集合结构的父接口，继承于它的接口主要有Set和List-提供了关于集合的一些操作-如插入、删除、判断一个元素是否其成员、遍历等。"><span class="toc-text">Collection是个java.util下的接口，它是各种集合结构的父接口，继承于它的接口主要有Set和List,提供了关于集合的一些操作,如插入、删除、判断一个元素是否其成员、遍历等。</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#将集合变成数组后有什么好处？限定了对集合中的元素进行增删操作，只要获取这些元素即可。"><span class="toc-text">将集合变成数组后有什么好处？限定了对集合中的元素进行增删操作，只要获取这些元素即可。</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Collection在jdk1-5以后，有了一个父接口Iterable，这个接口的出现的将iterator方法进行抽取，提高了扩展性。"><span class="toc-text">Collection在jdk1.5以后，有了一个父接口Iterable，这个接口的出现的将iterator方法进行抽取，提高了扩展性。</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#System-out-println-arr-1-2"><span class="toc-text">System.out.println(arr[1]); //2</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#如果要获取多个int数的和呢？可以使用将多个int数封装到数组中，直接对数组求和即可。"><span class="toc-text">如果要获取多个int数的和呢？可以使用将多个int数封装到数组中，直接对数组求和即可。</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#import-static-java-util-Collections-导入了Collections类中的所有静态成员"><span class="toc-text">import static java.util.Collections.*;  //导入了Collections类中的所有静态成员</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#4-、枚举就是一个特殊的java类，可以定义属性、方法、构造函数、实现接口、继承类；"><span class="toc-text">4)、枚举就是一个特殊的java类，可以定义属性、方法、构造函数、实现接口、继承类；</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#3-、String池：Java为了优化字符串操作-提供了一个缓冲池；"><span class="toc-text">3)、String池：Java为了优化字符串操作 提供了一个缓冲池；</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#当类中的操作的引用数据类型不确定的时候，以前用的Object来进行扩展的，现在可以用泛型来表示。这样可以避免强转的麻烦，而且将运行问题转移到的编译时期。"><span class="toc-text">当类中的操作的引用数据类型不确定的时候，以前用的Object来进行扩展的，现在可以用泛型来表示。这样可以避免强转的麻烦，而且将运行问题转移到的编译时期。</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#-19"><span class="toc-text">}</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#-20"><span class="toc-text">}</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#System-out-println-“不支持”"><span class="toc-text">System.out.println(“不支持”);</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#-21"><span class="toc-text">}</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#-22"><span class="toc-text">}</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#String-str-time-df-format-d"><span class="toc-text">String str_time = df.format(d);</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#-23"><span class="toc-text">}</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#在这四个系统中，它们的子类，都有一个共性特点：子类名后缀都是父类名，前缀名都是这个子类的功能名称。"><span class="toc-text">在这四个系统中，它们的子类，都有一个共性特点：子类名后缀都是父类名，前缀名都是这个子类的功能名称。</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#close-：将缓冲区的数据刷到目的地中后，流就关闭了，该方法主要用于结束调用的底层资源。这个动作一定做。"><span class="toc-text">close()：将缓冲区的数据刷到目的地中后，流就关闭了，该方法主要用于结束调用的底层资源。这个动作一定做。</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#-24"><span class="toc-text">}</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#-25"><span class="toc-text">}</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#-26"><span class="toc-text">}</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#bufw-close-关闭缓冲区，其实就是在关闭具体的流。"><span class="toc-text">bufw.close();//关闭缓冲区，其实就是在关闭具体的流。</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#bufr-close"><span class="toc-text">bufr.close();</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#bufr-close-1"><span class="toc-text">bufr.close();</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#凡是操作设备上的文本数据，涉及编码转换，必须使用转换流。"><span class="toc-text">凡是操作设备上的文本数据，涉及编码转换，必须使用转换流。</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#如果调用list方法的File-对象中封装的是一个文件，那么list方法返回数组为null。如果封装的对象不存在也会返回null。只有封装的对象存在并且是文件夹时，这个方法才有效。"><span class="toc-text">如果调用list方法的File 对象中封装的是一个文件，那么list方法返回数组为null。如果封装的对象不存在也会返回null。只有封装的对象存在并且是文件夹时，这个方法才有效。</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#其实递归就是在栈内存中不断的加载同一个函数。"><span class="toc-text">其实递归就是在栈内存中不断的加载同一个函数。</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#–-list-：将集合的键值数据列出到指定的目的地。"><span class="toc-text">|– list()：将集合的键值数据列出到指定的目的地。</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#既然操作的数据都转成了字符串，那么使用PrintWriter更好一些。因为PrintWrite是字符流的子类，可以直接操作字符数据，同时也可以指定具体的编码。"><span class="toc-text">既然操作的数据都转成了字符串，那么使用PrintWriter更好一些。因为PrintWrite是字符流的子类，可以直接操作字符数据，同时也可以指定具体的编码。</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#bufr-close-2"><span class="toc-text">bufr.close();</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#-27"><span class="toc-text">}</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#-28"><span class="toc-text">}</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#-29"><span class="toc-text">}</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#-30"><span class="toc-text">}</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#dis-close"><span class="toc-text">dis.close();</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#System-out-println-bos-toString"><span class="toc-text">System.out.println(bos.toString());</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#5，关闭资源。"><span class="toc-text">5，关闭资源。</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#-31"><span class="toc-text">}</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#5，关闭资源。-1"><span class="toc-text">5，关闭资源。</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#-32"><span class="toc-text">}</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#3，关闭资源。"><span class="toc-text">3，关闭资源。</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#-33"><span class="toc-text">}</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#4，如果通讯结束，关闭资源。注意：要先关客户端，再关服务端。"><span class="toc-text">4，如果通讯结束，关闭资源。注意：要先关客户端，再关服务端。</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#-34"><span class="toc-text">}</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#综上所述，第二种方式，必须要先明确具体的构造函数的参数类型，不便于扩展。所以一般情况下，被反射的类，内部通常都会提供一个公有的空参数的构造函数。"><span class="toc-text">综上所述，第二种方式，必须要先明确具体的构造函数的参数类型，不便于扩展。所以一般情况下，被反射的类，内部通常都会提供一个公有的空参数的构造函数。</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#-35"><span class="toc-text">}</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#-36"><span class="toc-text">}</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#3），使用Matcher对象中的方法即可对字符串进行各种正则操作。"><span class="toc-text">3），使用Matcher对象中的方法即可对字符串进行各种正则操作。</span></a></li></ol>
+            <header class="article-header">
+                
+    
+        <h1 class="article-title" itemprop="name">
+        java基础总结
+        </h1>
+    
+
+            </header>
+        
+        
+            <div class="article-meta">
+                
+    <div class="article-date">
+        <a href="/2019/04/16/java基础总结/" class="article-date">
+            <time datetime="2019-04-16T02:26:24.000Z" itemprop="datePublished">2019-04-15</time>
+        </a>
     </div>
 
-        <p>Java基础知识总结（超级经典）<br>写代码：<br>1，明确需求。我要做什么？<br>2，分析思路。我要怎么做？1,2,3。<br>3，确定步骤。每一个思路部分用到哪些语句，方法，和对象。<br>4，代码实现。用具体的java语言代码把思路体现出来。</p>
+		
+
+                
+            </div>
+        
+        
+        <div class="article-entry" itemprop="articleBody">
+            <p>Java基础知识总结（超级经典）<br>写代码：<br>1，明确需求。我要做什么？<br>2，分析思路。我要怎么做？1,2,3。<br>3，确定步骤。每一个思路部分用到哪些语句，方法，和对象。<br>4，代码实现。用具体的java语言代码把思路体现出来。</p>
 <p>学习新技术的四点：<br>1，该技术是什么？<br>2，该技术有什么特点(使用注意)：<br>3，该技术怎么使用。demo</p>
 <h2 id="4，该技术什么时候用？test。"><a href="#4，该技术什么时候用？test。" class="headerlink" title="4，该技术什么时候用？test。"></a>4，该技术什么时候用？test。</h2><p>一：java概述：<br>1991 年Sun公司的James Gosling等人开始开发名称为 Oak 的语言，希望用于控制嵌入在有线电视交换盒、PDA等的微处理器；<br>1994年将Oak语言更名为Java；</p>
 <p>Java的三种技术架构:<br>JAVAEE：Java Platform Enterprise Edition，开发企业环境下的应用程序，主要针对web程序开发；<br>JAVASE：Java Platform Standard Edition，完成桌面应用程序的开发，是其它两者的基础；<br>JAVAME：Java Platform Micro Edition，开发电子消费产品和嵌入式设备，如手机中的程序；</p>
@@ -506,124 +579,344 @@
 <p>2,<br>try<br>catch</p>
 <p>3,<br>try<br>finall</p>
 
-      
-    </div>
-    <footer>
-      
-        
-        
-        
-  <div class="bdsharebuttonbox"><a href="#" class="bds_more" data-cmd="more"></a><a title="分享到QQ空间" href="#" class="bds_qzone" data-cmd="qzone"></a><a title="分享到新浪微博" href="#" class="bds_tsina" data-cmd="tsina"></a><a title="分享到腾讯微博" href="#" class="bds_tqq" data-cmd="tqq"></a><a title="分享到人人网" href="#" class="bds_renren" data-cmd="renren"></a><a title="分享到微信" href="#" class="bds_weixin" data-cmd="weixin"></a></div>
-  <script>window._bd_share_config={"common":{"bdSnsKey":{},"bdText":"","bdMini":"2","bdMiniList":false,"bdPic":"","bdStyle":"1","bdSize":"16"},"share":{},"image":{"viewList":["qzone","tsina","tqq","renren","weixin"],"viewText":"分享到：","viewSize":"16"},"selectShare":{"bdContainerClass":null,"bdSelectMiniList":["qzone","tsina","tqq","renren","weixin"]}};with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];</script>
-
-      
-      <div class="clearfix"></div>
-    </footer>
-  </div>
-</article>
-<!-- 返回顶部 -->
-<div id="toTop">
-	<a href="#">▲</a>
-	<a href="#footer">▼</a>
-</div></div></div>
-      <aside id="sidebar" class="alignright">
-        
-           
-
-        
-          <div class="widget tag">
-  <h3 class="title">微信公众账号</h3>
-    <ul class="entry">
-      <img src="/img/default/qrcode.jpg" alt="欢迎关注个人公众账号" style="width: 100%">
-    </ul>
-</div>
-        
-          <div class="widget tag">
-  <h3 class="title">Calendar</h3>
-  <div id="calendar"></div>
-</div>
-
-        
-          
-  <div class="widget tag">
-    <h3 class="title">友情链接</h3>
-      <ul class="entry">
-        
-          <li class="link"><a href="http://xiaoyun.farbox.com">晓晓博客</a></li>
-        
-          <li class="link"><a href="http://www.ituring.com.cn/users/136808">图灵社区</a></li>
-        
-      </ul>
-  </div>
+        </div>
+        <footer class="article-footer">
+            
 
 
-        
-          
-  <div class="widget tag">
-    <h3 class="title">归档</h3>
-	<ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2019/">公元 2019 年</a><span class="archive-list-count">2</span></li></ul>
-  </div>
 
-        
-      </aside>
-      <div class="clearfix"></div>
-    </div>
-  <footer id="footer"><div class="footer-content inner">
-  <div class="alignleft">
-  
-    &copy; 2019 zengjx
-    
-  </div>
-  <div class="alignright">
-    Powered by <a href="http://hexo.io/" target="_blank">Hexo</a>, Theme
-    <a href="https://github.com/pengloo53/Hexo-theme-light_cn">light_cn</a>
-  </div>
+    <a data-url="http://yoursite.com/2019/04/16/java基础总结/" data-id="cjuiiirvi0006hstshvqf4rxz" class="article-share-link"><i class="fa fa-share"></i>Share</a>
+<script>
+    (function ($) {
+        $('body').on('click', function() {
+            $('.article-share-box.on').removeClass('on');
+        }).on('click', '.article-share-link', function(e) {
+            e.stopPropagation();
 
-  <div>
-    Hosted by <a href="https://pages.coding.me" style="font-weight: bold">Coding Pages</a>
-  </div>
-  
-  <div class="clearfix"></div>
-</div></footer>
-  <script src="/js/jquery.min.js"></script>
-<script src="/js/jquery.imagesloaded.min.js"></script>
-<script src="/js/gallery.js"></script>
+            var $this = $(this),
+                url = $this.attr('data-url'),
+                encodedUrl = encodeURIComponent(url),
+                id = 'article-share-box-' + $this.attr('data-id'),
+                offset = $this.offset(),
+                box;
 
-<!-- calendar widget -->
+            if ($('#' + id).length) {
+                box = $('#' + id);
 
-  <script src="/js/calendar.js"></script>
-  <script src="/js/languages.js"></script>
-  <script type="text/javascript">
-    $(function() {
-    
-      $('#calendar').aCalendar('zh-CN',{single:, root:'calendar'});
-    
-    });
-  </script>
+                if (box.hasClass('on')){
+                    box.removeClass('on');
+                    return;
+                }
+            } else {
+                var html = [
+                    '<div id="' + id + '" class="article-share-box">',
+                        '<input class="article-share-input" value="' + url + '">',
+                        '<div class="article-share-links">',
+                            '<a href="https://twitter.com/intent/tweet?url=' + encodedUrl + '" class="article-share-twitter" target="_blank" title="Twitter"></a>',
+                            '<a href="https://www.facebook.com/sharer.php?u=' + encodedUrl + '" class="article-share-facebook" target="_blank" title="Facebook"></a>',
+                            '<a href="http://pinterest.com/pin/create/button/?url=' + encodedUrl + '" class="article-share-pinterest" target="_blank" title="Pinterest"></a>',
+                            '<a href="https://plus.google.com/share?url=' + encodedUrl + '" class="article-share-google" target="_blank" title="Google+"></a>',
+                        '</div>',
+                    '</div>'
+                ].join('');
 
+              box = $(html);
 
-<!-- 百度统计 -->
+              $('body').append(box);
+            }
 
-	<script>
-	var _hmt = _hmt || [];
-	(function() {
-	  var hm = document.createElement("script");
-	  hm.src = "//hm.baidu.com/hm.js?9acf0cedd48dc53be256ede5a98c2aaa";
-	  var s = document.getElementsByTagName("script")[0]; 
-	  s.parentNode.insertBefore(hm, s);
-	})();
-	</script>
+            $('.article-share-box.on').hide();
 
+            box.css({
+                top: offset.top + 25,
+                left: offset.left
+            }).addClass('on');
 
-<!-- fancybox -->
+        }).on('click', '.article-share-box', function (e) {
+            e.stopPropagation();
+        }).on('click', '.article-share-box-input', function () {
+            $(this).select();
+        }).on('click', '.article-share-box-link', function (e) {
+            e.preventDefault();
+            e.stopPropagation();
 
-<link rel="stylesheet" href="/fancybox/jquery.fancybox.css" media="screen" type="text/css">
-<script src="/fancybox/jquery.fancybox.pack.js"></script>
-<script type="text/javascript">
-(function($){
-  $('.fancybox').fancybox();
-})(jQuery);
+            window.open(this.href, 'article-share-box-window-' + Date.now(), 'width=500,height=450');
+        });
+    })(jQuery);
 </script>
 
+        </footer>
+    </div>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "BlogPosting",
+        "author": {
+            "@type": "Person",
+            "name": "zengjx"
+        },
+        "headline": "java基础总结",
+        "image": "http://yoursite.com",
+        "keywords": "",
+        "genre": "",
+        "datePublished": "2019-04-15",
+        "dateCreated": "2019-04-15",
+        "dateModified": "2019-04-15",
+        "url": "http://yoursite.com/2019/04/16/java基础总结/",
+        "description": "Java基础知识总结（超级经典）写代码：1，明确需求。我要做什么？2，分析思路。我要怎么做？1,2,3。3，确定步骤。每一个思路部分用到哪些语句，方法，和对象。4，代码实现。用具体的java语言代码把思路体现出来。
+学习新技术的四点：1，该技术是什么？2，该技术有什么特点(使用注意)：3，该技术怎么使用。demo
+4，该技术什么时候用？test。一：java概述：1991 年Sun公司的James"
+        "wordCount": 3538
+    }
+</script>
+
+</article>
+
+    <section id="comments">
+    
+        
+    <div id="disqus_thread">
+        <noscript>Please enable JavaScript to view the <a href="//disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+    </div>
+
+    
+    </section>
 
 
+
+                        </div>
+                    </section>
+                    <aside id="sidebar">
+    <a class="sidebar-toggle" title="Expand Sidebar"><i class="toggle icon"></i></a>
+    <div class="sidebar-top">
+        <p>follow:</p>
+        <ul class="social-links">
+            
+                
+                <li>
+                    <a class="social-tooltip" title="twitter" href="/" target="_blank" rel="noopener">
+                        <i class="icon fa fa-twitter"></i>
+                    </a>
+                </li>
+                
+            
+                
+                <li>
+                    <a class="social-tooltip" title="facebook" href="/" target="_blank" rel="noopener">
+                        <i class="icon fa fa-facebook"></i>
+                    </a>
+                </li>
+                
+            
+                
+                <li>
+                    <a class="social-tooltip" title="google-plus" href="/" target="_blank" rel="noopener">
+                        <i class="icon fa fa-google-plus"></i>
+                    </a>
+                </li>
+                
+            
+                
+                <li>
+                    <a class="social-tooltip" title="github" href="https://github.com/ppoffice/hexo-theme-hueman" target="_blank" rel="noopener">
+                        <i class="icon fa fa-github"></i>
+                    </a>
+                </li>
+                
+            
+                
+                <li>
+                    <a class="social-tooltip" title="weibo" href="/" target="_blank" rel="noopener">
+                        <i class="icon fa fa-weibo"></i>
+                    </a>
+                </li>
+                
+            
+                
+                <li>
+                    <a class="social-tooltip" title="rss" href="/" target="_blank" rel="noopener">
+                        <i class="icon fa fa-rss"></i>
+                    </a>
+                </li>
+                
+            
+        </ul>
+    </div>
+    
+        
+<nav id="article-nav">
+    
+    
+        <a href="/2019/04/16/hexo搭建过程详解/" id="article-nav-older" class="article-nav-link-wrap">
+        <strong class="article-nav-caption">older</strong>
+        <p class="article-nav-title">newpapername</p>
+        <i class="icon fa fa-chevron-left" id="icon-chevron-left"></i>
+        </a>
+    
+</nav>
+
+    
+    <div class="widgets-container">
+        
+            
+                
+
+            
+                
+    <div class="widget-wrap">
+        <h3 class="widget-title">recents</h3>
+        <div class="widget">
+            <ul id="recent-post" class>
+                
+                    <li>
+                        
+                        <div class="item-thumbnail">
+                            <a href="/2019/04/16/java基础总结/" class="thumbnail">
+    
+    
+        <span class="thumbnail-image thumbnail-none"></span>
+    
+    
+</a>
+
+                        </div>
+                        
+                        <div class="item-inner">
+                            <p class="item-category"></p>
+                            <p class="item-title"><a href="/2019/04/16/java基础总结/" class="title">java基础总结</a></p>
+                            <p class="item-date"><time datetime="2019-04-16T02:26:24.000Z" itemprop="datePublished">2019-04-15</time></p>
+                        </div>
+                    </li>
+                
+                    <li>
+                        
+                        <div class="item-thumbnail">
+                            <a href="/2019/04/16/hexo搭建过程详解/" class="thumbnail">
+    
+    
+        <span class="thumbnail-image thumbnail-none"></span>
+    
+    
+</a>
+
+                        </div>
+                        
+                        <div class="item-inner">
+                            <p class="item-category"></p>
+                            <p class="item-title"><a href="/2019/04/16/hexo搭建过程详解/" class="title">newpapername</a></p>
+                            <p class="item-date"><time datetime="2019-04-16T00:23:44.000Z" itemprop="datePublished">2019-04-15</time></p>
+                        </div>
+                    </li>
+                
+            </ul>
+        </div>
+    </div>
+
+            
+                
+
+            
+                
+    <div class="widget-wrap widget-list">
+        <h3 class="widget-title">archives</h3>
+        <div class="widget">
+            <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2019/04/">April 2019</a><span class="archive-list-count">2</span></li></ul>
+        </div>
+    </div>
+
+
+            
+                
+
+            
+                
+
+            
+                
+    <div class="widget-wrap widget-list">
+        <h3 class="widget-title">links</h3>
+        <div class="widget">
+            <ul>
+                
+                    <li>
+                        <a href="http://hexo.io">Hexo</a>
+                    </li>
+                
+            </ul>
+        </div>
+    </div>
+
+
+            
+        
+    </div>
+</aside>
+
+                </div>
+            </div>
+        </div>
+        <footer id="footer">
+    <div class="container">
+        <div class="container-inner">
+            <a id="back-to-top" href="javascript:;"><i class="icon fa fa-angle-up"></i></a>
+            <div class="credit">
+                <h1 class="logo-wrap">
+                    <a href="/" class="logo"></a>
+                </h1>
+                <p>&copy; 2019 zengjx</p>
+                <p>Powered by <a href="//hexo.io/" target="_blank">Hexo</a>. Theme by <a href="//github.com/ppoffice" target="_blank">PPOffice</a></p>
+            </div>
+            <div class="footer-plugins">
+              
+    
+
+
+            </div>
+        </div>
+    </div>
+</footer>
+
+        
+    
+    <script>
+    var disqus_shortname = 'hexo-theme-hueman';
+    
+    
+    var disqus_url = 'http://yoursite.com/2019/04/16/java基础总结/';
+    
+    (function() {
+    var dsq = document.createElement('script');
+    dsq.type = 'text/javascript';
+    dsq.async = true;
+    dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+    </script>
+
+
+
+
+    
+        <script src="/libs/lightgallery/js/lightgallery.min.js"></script>
+        <script src="/libs/lightgallery/js/lg-thumbnail.min.js"></script>
+        <script src="/libs/lightgallery/js/lg-pager.min.js"></script>
+        <script src="/libs/lightgallery/js/lg-autoplay.min.js"></script>
+        <script src="/libs/lightgallery/js/lg-fullscreen.min.js"></script>
+        <script src="/libs/lightgallery/js/lg-zoom.min.js"></script>
+        <script src="/libs/lightgallery/js/lg-hash.min.js"></script>
+        <script src="/libs/lightgallery/js/lg-share.min.js"></script>
+        <script src="/libs/lightgallery/js/lg-video.min.js"></script>
+    
+    
+        <script src="/libs/justified-gallery/jquery.justifiedGallery.min.js"></script>
+    
+    
+
+
+
+<!-- Custom Scripts -->
+<script src="/js/main.js"></script>
+
+    </div>
+</body>
+</html>
