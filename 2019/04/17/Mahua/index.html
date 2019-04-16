@@ -12,18 +12,18 @@
     
         <meta name="keywords" content>
     
-    <meta name="description" content="##MaHua是什么?一个在线编辑markdown文档的编辑器 向Mac下优秀的markdown编辑器mou致敬 ##MaHua有哪些功能？  方便的导入导出功能 直接把一个markdown的文本文件拖放到当前这个页面就可以了 导出为一个html格式的文件，样式一点也不会丢失   编辑和预览同步滚动，所见即所得（右上角设置） VIM快捷键支持，方便vim党们快速的操作 （右上角设置） 强大的自定">
+    <meta name="description" content="##MaHua是什么?一个在线编辑markdown文档的编辑器插入图片! [图片名称] (http://图片网址/ “title”)向Mac下优秀的markdown编辑器mou致敬 ##MaHua有哪些功能？  方便的导入导出功能 直接把一个markdown的文本文件拖放到当前这个页面就可以了 导出为一个html格式的文件，样式一点也不会丢失   编辑和预览同步滚动，所见即所得（右上角设置） V">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Mahua">
 <meta property="og:url" content="http://yoursite.com/2019/04/17/Mahua/index.html">
 <meta property="og:site_name" content="Zengjx">
-<meta property="og:description" content="##MaHua是什么?一个在线编辑markdown文档的编辑器 向Mac下优秀的markdown编辑器mou致敬 ##MaHua有哪些功能？  方便的导入导出功能 直接把一个markdown的文本文件拖放到当前这个页面就可以了 导出为一个html格式的文件，样式一点也不会丢失   编辑和预览同步滚动，所见即所得（右上角设置） VIM快捷键支持，方便vim党们快速的操作 （右上角设置） 强大的自定">
+<meta property="og:description" content="##MaHua是什么?一个在线编辑markdown文档的编辑器插入图片! [图片名称] (http://图片网址/ “title”)向Mac下优秀的markdown编辑器mou致敬 ##MaHua有哪些功能？  方便的导入导出功能 直接把一个markdown的文本文件拖放到当前这个页面就可以了 导出为一个html格式的文件，样式一点也不会丢失   编辑和预览同步滚动，所见即所得（右上角设置） V">
 <meta property="og:locale" content="简体中文，英语">
 <meta property="og:image" content="http://yoursite.com/2019/04/17/Mahua/mahua-logo.jpg">
-<meta property="og:updated_time" content="2019-04-16T04:37:28.909Z">
+<meta property="og:updated_time" content="2019-04-16T04:50:32.695Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Mahua">
-<meta name="twitter:description" content="##MaHua是什么?一个在线编辑markdown文档的编辑器 向Mac下优秀的markdown编辑器mou致敬 ##MaHua有哪些功能？  方便的导入导出功能 直接把一个markdown的文本文件拖放到当前这个页面就可以了 导出为一个html格式的文件，样式一点也不会丢失   编辑和预览同步滚动，所见即所得（右上角设置） VIM快捷键支持，方便vim党们快速的操作 （右上角设置） 强大的自定">
+<meta name="twitter:description" content="##MaHua是什么?一个在线编辑markdown文档的编辑器插入图片! [图片名称] (http://图片网址/ “title”)向Mac下优秀的markdown编辑器mou致敬 ##MaHua有哪些功能？  方便的导入导出功能 直接把一个markdown的文本文件拖放到当前这个页面就可以了 导出为一个html格式的文件，样式一点也不会丢失   编辑和预览同步滚动，所见即所得（右上角设置） V">
 <meta name="twitter:image" content="http://yoursite.com/2019/04/17/Mahua/mahua-logo.jpg">
     
 
@@ -75,13 +75,13 @@
                         <ul id="main-nav">
                             
                                 <li class="main-nav-list-item">
-                                    <a class="main-nav-list-link" href="/">Inici</a>
+                                    <a class="main-nav-list-link" href="/">Főoldal</a>
                                 </li>
                             
                                         
                                     
                                 <li class="main-nav-list-item">
-                                    <a class="main-nav-list-link" href="/about/index.html">Quant a</a>
+                                    <a class="main-nav-list-link" href="/about/index.html">Elérhetőség</a>
                                 </li>
                             
                         </ul>
@@ -89,14 +89,14 @@
                             <div id="search-form-wrap">
 
     <form class="search-form">
-        <input type="text" class="ins-search-input search-form-input" placeholder="Cercar">
+        <input type="text" class="ins-search-input search-form-input" placeholder="Keresés">
         <button type="submit" class="search-form-submit"></button>
     </form>
     <div class="ins-search">
     <div class="ins-search-mask"></div>
     <div class="ins-search-container">
         <div class="ins-input-wrapper">
-            <input type="text" class="ins-search-input" placeholder="Type something...">
+            <input type="text" class="ins-search-input" placeholder="Keresendő szöveg...">
             <span class="ins-close ins-selectable"><i class="fa fa-times-circle"></i></span>
         </div>
         <div class="ins-section-wrapper">
@@ -108,11 +108,11 @@
 (function (window) {
     var INSIGHT_CONFIG = {
         TRANSLATION: {
-            POSTS: 'Posts',
-            PAGES: 'Pages',
-            CATEGORIES: 'categories',
-            TAGS: 'etiquetes',
-            UNTITLED: '(Untitled)',
+            POSTS: 'Bejegyzések',
+            PAGES: 'Oldalak',
+            CATEGORIES: 'Kategóriák',
+            TAGS: 'Címkék',
+            UNTITLED: '(Névtelen)',
         },
         ROOT_URL: '/',
         CONTENT_URL: '/content.json',
@@ -137,7 +137,7 @@
                         <div class="main-body-header">
     <h1 class="header">
     
-    Sense categoria
+    kategorizálatlan
     </h1>
 </div>
 
@@ -172,8 +172,7 @@
         
         <div class="article-entry" itemprop="articleBody">
             <p><img src="/2019/04/17/Mahua/mahua-logo.jpg" alt="Mahua"></p>
-<p>##MaHua是什么?<br>一个在线编辑markdown文档的编辑器</p>
-<p>向Mac下优秀的markdown编辑器mou致敬</p>
+<p>##MaHua是什么?<br>一个在线编辑markdown文档的编辑器<br>插入图片<br>! [图片名称] (http://图片网址/ “title”)<br>向Mac下优秀的markdown编辑器mou致敬</p>
 <p>##MaHua有哪些功能？</p>
 <ul>
 <li>方便的<code>导入导出</code>功能<ul>
@@ -187,8 +186,10 @@
 <li>有数量也有质量的<code>主题</code>,编辑器和预览区域</li>
 <li>完美兼容<code>Github</code>的markdown语法</li>
 <li>预览区域<code>代码高亮</code></li>
-<li>所有选项自动记忆</li>
+<li>所有选项自动记忆<h1 id="这是一级标题（H1，通常用于文档标题）"><a href="#这是一级标题（H1，通常用于文档标题）" class="headerlink" title="这是一级标题（H1，通常用于文档标题）"></a>这是一级标题（H1，通常用于文档标题）</h1><h2 id="这是二级标题（H2，有些渲染器会为二级标题添加-hr-底线）"><a href="#这是二级标题（H2，有些渲染器会为二级标题添加-hr-底线）" class="headerlink" title="这是二级标题（H2，有些渲染器会为二级标题添加 hr 底线）"></a>这是二级标题（H2，有些渲染器会为二级标题添加 hr 底线）</h2><h3 id="这是三级标题（H3）"><a href="#这是三级标题（H3）" class="headerlink" title="这是三级标题（H3）"></a>这是三级标题（H3）</h3><h4 id="这是四级标题（H4）"><a href="#这是四级标题（H4）" class="headerlink" title="这是四级标题（H4）"></a>这是四级标题（H4）</h4><h5 id="这是五级标题（H5）"><a href="#这是五级标题（H5）" class="headerlink" title="这是五级标题（H5）"></a>这是五级标题（H5）</h5><h6 id="这是六级标题（H6）"><a href="#这是六级标题（H6）" class="headerlink" title="这是六级标题（H6）"></a>这是六级标题（H6）</h6></li>
 </ul>
+<hr>
+<p>作者：弦苦<br>来源：CSDN<br>原文：<a href="https://blog.csdn.net/phunxm/article/details/49565427" target="_blank" rel="noopener">https://blog.csdn.net/phunxm/article/details/49565427</a><br>版权声明：本文为博主原创文章，转载请附上博文链接！</p>
 <p>##有问题反馈<br>在使用中有任何问题，欢迎反馈给我，可以用以下联系方式跟我交流</p>
 <ul>
 <li>邮件(dev.hubo#gmail.com, 把#换成@)</li>
@@ -211,7 +212,7 @@
 
 
 
-    <a data-url="http://yoursite.com/2019/04/17/Mahua/" data-id="cjujaqx8x0002o0tsu968daie" class="article-share-link"><i class="fa fa-share"></i>Compartir</a>
+    <a data-url="http://yoursite.com/2019/04/17/Mahua/" data-id="cjujb7h0u0002kots9xoh8zkh" class="article-share-link"><i class="fa fa-share"></i>Megosztás</a>
 <script>
     (function ($) {
         $('body').on('click', function() {
@@ -290,8 +291,7 @@
         "dateModified": "2019-04-16",
         "url": "http://yoursite.com/2019/04/17/Mahua/",
         "description": "
-##MaHua是什么?一个在线编辑markdown文档的编辑器
-向Mac下优秀的markdown编辑器mou致敬
+##MaHua是什么?一个在线编辑markdown文档的编辑器插入图片! [图片名称] (http://图片网址/ “title”)向Mac下优秀的markdown编辑器mou致敬
 ##MaHua有哪些功能？
 
 方便的导入导出功能
@@ -300,9 +300,8 @@
 
 
 编辑和预览同步滚动，所见即所得（右上角设置）
-VIM快捷键支持，方便vim党们快速的操作 （右上角设置）
-强大的自定"
-        "wordCount": 51
+V"
+        "wordCount": 85
     }
 </script>
 
@@ -325,7 +324,7 @@ VIM快捷键支持，方便vim党们快速的操作 （右上角设置）
                     <aside id="sidebar">
     <a class="sidebar-toggle" title="Expand Sidebar"><i class="toggle icon"></i></a>
     <div class="sidebar-top">
-        <p>seguir:</p>
+        <p>követés:</p>
         <ul class="social-links">
             
                 
@@ -384,7 +383,7 @@ VIM快捷键支持，方便vim党们快速的操作 （右上角设置）
     
     
         <a href="/2019/04/16/ins2019图片/" id="article-nav-older" class="article-nav-link-wrap">
-        <strong class="article-nav-caption">antic</strong>
+        <strong class="article-nav-caption">előző</strong>
         <p class="article-nav-title">ins2019图片</p>
         <i class="icon fa fa-chevron-left" id="icon-chevron-left"></i>
         </a>
@@ -400,7 +399,7 @@ VIM快捷键支持，方便vim党们快速的操作 （右上角设置）
             
                 
     <div class="widget-wrap">
-        <h3 class="widget-title">recents</h3>
+        <h3 class="widget-title">friss</h3>
         <div class="widget">
             <ul id="recent-post" class>
                 
@@ -514,7 +513,7 @@ VIM快捷键支持，方便vim党们快速的操作 （右上角设置）
             
                 
     <div class="widget-wrap widget-list">
-        <h3 class="widget-title">arxius</h3>
+        <h3 class="widget-title">archívum</h3>
         <div class="widget">
             <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2019/04/">April 2019</a><span class="archive-list-count">5</span></li></ul>
         </div>
@@ -530,7 +529,7 @@ VIM快捷键支持，方便vim党们快速的操作 （右上角设置）
             
                 
     <div class="widget-wrap widget-list">
-        <h3 class="widget-title">links</h3>
+        <h3 class="widget-title">linkek</h3>
         <div class="widget">
             <ul>
                 
